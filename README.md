@@ -19,5 +19,6 @@ Spring Boot demo unit tests, hot swap and logging  - Udacity Java Nanodegree.
     1. Run test case: UserServiceTest 
 
     2. Hot swap by changing data without restarting application - refresh browser
+       http://localhost:8080/demo
        http://localhost:8080/demo2
   
