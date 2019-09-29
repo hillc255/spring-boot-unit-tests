@@ -6,8 +6,6 @@ Spring Boot demo unit tests, hot swap and logging  - Udacity Java Nanodegree.
     https://start.spring.io/
     Spring Boot2.1.8.RELEASE
     Spring Web
-    WebSocket
-    Thymeleaf
     DevTool
     Maven
     Embedded Tomcat
@@ -16,14 +14,10 @@ Spring Boot demo unit tests, hot swap and logging  - Udacity Java Nanodegree.
  
     mvn spring-boot:run 
     
- ## In browser  
+ ## In browser - Result 
    
-   [browser 1] http://localhost:8080 </br>
-   [browser 2] http://localhost:8080 </br>
-   
- ## Result 
- 
-    Start each websocket in the 2 browsers
-    Scheduler will begin
-    Add a name and submit
-    Name will appear in each browser
+    1. Run test case: UserServiceTest 
+
+    2. Hot swap by changing data without restarting application - refresh browser
+       http://localhost:8080/demo2
+  
